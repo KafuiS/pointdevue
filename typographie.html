@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel='stylesheet' type='text/css' href='./CSS/typographie.css'>
+    <link rel='stylesheet' media="screen and (max-width: 1200px)" type='text/css' href='./CSS/typographie.css'>
+    <script type="text/javascript" src="carroussel.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- typo 3D-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <!-- typo texte-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@1,300&display=swap" rel="stylesheet">
+<!-- typo menu -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@1,500&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+        <!-- MENU SIDEBAR -->
+
+<div class="menu">
+    <div class="title">MENU</div>
+    <ul class="nav">
+      <li><a href="..\PORTFOLIO\index.html">Items</a></li>
+      <li><a href="..\PORTFOLIO\photographie.html">Photographie</a></li>
+      <li><a href="..\PORTFOLIO\videographie.html">Vidéographie</a></li>
+      <li><a href="..\PORTFOLIO\experimentation.html">Expérimentation</a></li>
+      <li><a href="..\PORTFOLIO\serigraphie.html">Sérigraphie</a></li>
+
+      <a href="https://www.linkedin.com/in/in%C3%A8s-sogadzi-597a87b5/">
+      <button class="reseaux">
+      <i class="fa fa-linkedin"></i> 
+      </button>
+      </a>
+
+      <a href="mailto:ines.sogadzi@hotmail.fr">
+      <button class="reseaux">
+      <i class="fa fa-envelope"></i>
+      </button>
+      </a>
+      <a href="..\PORTFOLIO\CV\CV_InesSOGADZI.pdf">
+      <button class="reseaux">
+      <i class="fa fa-user"></i>
+      </button>
+      </a>    
+    </ul>
+</div>
+
+<div class="stageT">
+  <div class="layerT"></div>
+  <div class="layerT"></div>
+  <div class="layerT"></div>
+  <div class="layerT"></div>
+  <div class="layerT"></div>
+  <div class="layerT"></div>
+  <div class="layerT"></div>
+  <div class="layerT"></div>
+  <div class="layerT"></div>
+  <div class="layerT"></div>
+  <div class="layerT"></div>
+  <div class="layerT"></div>
+  <div class="layerT"></div>
+  <div class="layerT"></div>
+  <div class="layerT"></div>
+  <div class="layerT"></div>
+  <div class="layerT"></div>
+  <div class="layerT"></div>
+  <div class="layerT"></div>
+  <div class="layerT"></div>
+</div>
+
+
+
+<div class="TEXTE">
+  Au sein de ma formation, nous apprenons à manipuler des logiciels informatiques, dont la suite Adobe. 
+    <br><br>
+  Cet exercice a été réalisé avec Illustrator et le but était de manipuler de la typographie. Le champ était libre : nous pouvions aussi bien créer notre propre typographie de a à z, créer uniquement quelques lettres et les mettre en situation sur une affiche par exemple, ou encore utiliser une typographie déjà existante et innover pour la mettre en situation.
+    <br><br>
+  En m'inspirant de plusieurs designs que j'avais pu voir sur Instagram, au contraste flagrant mais plutôt harmonieux entre gros empâtements et lignes fines, j'ai décidé de créer une typographie de a à z et de 1 à 9. 
+    <br><br><br><br><br><br>
+</div>
+
+<!-- Carroussel/lightbox -->
+  
+  <div class="row">
+    <div class="col">
+       <img src="..\PORTFOLIO\TYPOGRAPHIE\ARKITEKT.png" onclick="openLightbox();toSlide(1)" class="hover-shadow preview"  />
+    </div><br><br><br><br>
+    <div class="col">
+       <img src="..\PORTFOLIO\TYPOGRAPHIE\LETTRES2.png" onclick="openLightbox();toSlide(2)" class="hover-shadow preview"/>
+    </div><br><br><br><br>
+    <div class="col">
+       <img src="..\PORTFOLIO\TYPOGRAPHIE\CHIFFRES2.png" onclick="openLightbox();toSlide(3)" class="hover-shadow preview" />
+    </div>
+  </div>
+
+
+  <div id="Lightbox" class="modal">
+  
+    <span class="close pointer" onclick="closeLightbox()">&times;</span>
+    <div class="modal-content">
+      <div class="slide">
+        <img src="..\PORTFOLIO\TYPOGRAPHIE\ARKITEKT.png" class="image-slide" />
+      </div>
+      <div class="slide">
+        <img src="..\PORTFOLIO\TYPOGRAPHIE\LETTRES2.png"  class="image-slide" />
+      </div>  
+      <div class="slide">
+        <img src="..\PORTFOLIO\TYPOGRAPHIE\CHIFFRES2.png" class="image-slide" />
+      </div>
+
+    
+      <a class="previous" onclick="changeSlide(-1)"></a>
+      <a class="next" onclick="changeSlide(1)"></a>
+       <br><br><br>   
+      <div class="dots">
+        <div class="col">
+          <img src="..\PORTFOLIO\TYPOGRAPHIE\ARKITEKT.png"  class="modal-preview hover-shadow" onclick="toSlide(1)" />
+        </div>
+        <div class="col">
+          <img src="..\PORTFOLIO\TYPOGRAPHIE\LETTRES2.png"  class="modal-preview hover-shadow" onclick="toSlide(2)" />
+        </div>
+        <div class="col">
+          <img src="..\PORTFOLIO\TYPOGRAPHIE\CHIFFRES2.png"  class="modal-preview hover-shadow" onclick="toSlide(3)" />
+        </div>
+      </div>
+    </div> 
+  </div>
+
+</section>
+<br><br><br><br><br><br>
+</body>
