@@ -296,7 +296,7 @@ VIDEOGRAPHIE*/
 .layer2:after {
   font-family: 'Monoton', cursive;  
   font-size: 50px;
-  content: "VIDEOGRAPHIE";
+  content: "VIDÉOGRAPHIE";
   white-space: pre;
   text-align: center;
   height: 100%;
@@ -423,7 +423,7 @@ VIDEOGRAPHIE*/
 .layer3:after {
   font-family: 'Monoton', cursive;  
   font-size: 50px;
-  content: "EXPERIMENTATION";
+  content: "EXPÉRIMENTATION";
   text-align: center;
   height: 100%;
   width: 100%;
@@ -550,7 +550,7 @@ SERIGRAPHIE*/
 .layer4:after {
   font-family: 'Monoton', cursive;  
   font-size: 50px;
-  content: "SERIGRAPHIE";
+  content: "SÉRIGRAPHIE";
   text-align: center;
   height: 100%;
   width: 100%;
