@@ -199,7 +199,7 @@ body {
     }
 
     .preview {
-      width: 100%;
+      width: 60%;
       margin: auto;
       justify-content: center;
       display: flex;
@@ -216,7 +216,6 @@ body {
     }
 
     .col{
-      width: 60%;
       margin: auto;
       display: flex;
       align-content: center;
