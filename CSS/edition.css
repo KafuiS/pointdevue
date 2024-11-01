@@ -199,10 +199,11 @@ body {
     }
 
     .preview {
-      width: 70%;
+      width: 100%;
       margin: auto;
       justify-content: center;
-
+      display: flex;
+      align-content: center;
     }
     
     .row {
@@ -215,7 +216,7 @@ body {
     }
 
     .col{
-      width: 100%;
+      width: 60%;
       margin: auto;
       display: flex;
       align-content: center;
@@ -260,14 +261,6 @@ body {
       width: 100%;
     }
     
-    .dots {
-      width: 70%;
-      margin: auto;
-      display: inline-flex;
-      align-content: center;
-      flex-direction: row;
-    }
-    
     img.preview, img.modal-preview {
       opacity: 0.6;
     }
@@ -287,38 +280,7 @@ body {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     } 
     
-    .close {
-      color: grey;
-      position: absolute;
-      top: 10px;
-      left: 89%;
-      font-size: 35px;
-      font-weight: bold;
-    }
-    
-    .close:hover,
-    .close:focus {
-      text-decoration: none;
-      cursor: pointer;
-    }
-    
-    .previous,
-    .next {
-      cursor: pointer;
-      position: absolute;
-      width: 100px;
-      height: 100%;
-      padding: 16px;
-      border-radius: 0 3px 3px 0;
-      user-select: none;
-      -webkit-user-select: none;
-    }
-    
-    .next {
-      right: 0;
-      border-radius: 3px 0 0 3px;
-    }
-
+   
     /*RESEAUX*/
 
  .reseaux{
