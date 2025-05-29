@@ -112,7 +112,7 @@ body {
   transform: translateZ(-45px);
 }
 
-.layerEDI:nth-child(20):after {
+.layerM:nth-child(20):after {
   transform: translateZ(-47.5px);
 }
 
@@ -123,7 +123,7 @@ body {
 
 }
 
-.TEXTEEDI{
+.TEXTE{
   align-self: center;
   width: 60%;
   margin: auto;
